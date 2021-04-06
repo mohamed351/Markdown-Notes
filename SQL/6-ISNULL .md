@@ -7,9 +7,10 @@ SELECT COALESCE(Email, 'NOT Specified') FROM Employees
 ----------------------------------
 ## Case When
 ```sql
+
 SELECT 
 CASE WHEN <Expression> THEN '' ELSE '' END
- FROM Employees
+FROM Employees
 
 ```
 *you can use case and else for NULL VALUES*
