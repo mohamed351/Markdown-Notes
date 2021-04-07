@@ -25,5 +25,6 @@ CASE WHEN [Name] is NULL THEN '' ELSE '' END
 SELECT 
 COALESCE(FirstName, LastName,MiddleName,'Not Specified') 
 FROM Employees
+
 ```
 *if first name is null is going to take last name and if middle Name is null is going to take Not Specifited*
