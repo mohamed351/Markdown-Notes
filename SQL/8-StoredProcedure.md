@@ -42,6 +42,7 @@ END
 
 EXECUTE SP_GET_Employee @DepartmentID =1,
 @Gender ='Male';
+
 ```
 ```sql
 EXEC sp_helptext SP_GET_Employee
