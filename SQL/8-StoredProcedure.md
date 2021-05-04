@@ -56,6 +56,7 @@ BEGIN
     Select * FROM Employees
     WHERE Gender ='male'
 END
+
 ```
 ### Drop Procedure 
 ```sql
@@ -68,6 +69,5 @@ ALTER PROC spGenderEmployees
 WITH ENCRYPTION
 as
 SELECT * FROM Employees Where Gender ='male';
-
 ```
 
