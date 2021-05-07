@@ -35,6 +35,7 @@ EXECUTE sp_renameDB 'OLD_NAME', 'NEW_NAME'
 
 *for dropping database " deteting database  you have"*
 
+
 ```sql
 DROP DATABASE [DATABASE_NAME]
 ```
