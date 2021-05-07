@@ -64,7 +64,6 @@ DROP PROC spGenderEmployees
 ```
 ### To Create Procedure With Encryption
 ```sql
-
 ALTER PROC spGenderEmployees
 @Gender nvarchar(20)
 WITH ENCRYPTION
