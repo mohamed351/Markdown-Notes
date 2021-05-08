@@ -40,6 +40,7 @@ DROP DATABASE [DATABASE_NAME]
 ```
 *Remember when you dropping a database the database shouldn't be used
 you will get an Error 
+
 'you cannot drop a database because it is currently use'*
 
 *To Delete a Database you need to change to SINGLE_USER*
