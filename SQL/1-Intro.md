@@ -32,6 +32,7 @@ MODIFY NAME = [NEW_NAME_OF_DATABASE]
 ```sql
 EXECUTE sp_renameDB 'OLD_NAME', 'NEW_NAME'
 ```
+
 *for dropping database " deteting database  you have"*
 
 ```sql
