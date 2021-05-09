@@ -13,6 +13,7 @@
 ```sql
 CREATE DATABASE [NAME_OF_DATABASE]
 ``` 
+
 > [Note]
 > There is a System Database Please Don't Delete them 
 > Which is master , model , msdb, tempdb
@@ -48,6 +49,7 @@ ALTER DATABASE [DATABASE_NAME]
 SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 ```
 *Then Drop The Database is going to be dropped*
+
 
 
 
