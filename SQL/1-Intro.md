@@ -4,6 +4,7 @@
 - *There is a difference between sql server managment studio and sql server engine database*
 - *if you want to install sql Server please Search in Google*
 
+
 ### Create Altering and Dropping a Database 
 > [Note]
 > Every Query or Creating a Database Can be done by Sql server Management Studio But you need to learn In Code and It is better we are not going to Discuss GUI
@@ -11,7 +12,6 @@
 #### Creating a Database 
 ```sql
 CREATE DATABASE [NAME_OF_DATABASE]
-
 ``` 
 > [Note]
 > There is a System Database Please Don't Delete them 
