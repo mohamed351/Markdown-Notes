@@ -56,7 +56,6 @@ BEGIN
     Select * FROM Employees
     WHERE Gender ='male'
 END
-
 ```
 ### Drop Procedure 
 ```sql
