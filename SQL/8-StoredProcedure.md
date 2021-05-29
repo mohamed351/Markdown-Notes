@@ -59,7 +59,6 @@ END
 ```
 ### Drop Procedure 
 ```sql
-
 DROP PROC spGenderEmployees
 ```
 ### To Create Procedure With Encryption
@@ -69,6 +68,5 @@ ALTER PROC spGenderEmployees
 WITH ENCRYPTION
 as
 SELECT * FROM Employees Where Gender ='male';
-
 ```
 
