@@ -59,6 +59,7 @@ END
 ```
 ### Drop Procedure 
 ```sql
+
 DROP PROC spGenderEmployees
 ```
 ### To Create Procedure With Encryption
