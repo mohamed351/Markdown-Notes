@@ -45,6 +45,8 @@ EXECUTE SP_GET_Employee @DepartmentID =1,
 ```
 ```sql
 EXEC sp_helptext SP_GET_Employee
+EXEC sp_helptext SP_GET_Employee  1,'male' -- if you want to add 
+
 ```
 ### Alter Procedure 
 ```sql
