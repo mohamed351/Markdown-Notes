@@ -67,6 +67,7 @@ ALTER PROC spGenderEmployees
 @Gender nvarchar(20)
 WITH ENCRYPTION
 as
-SELECT * FROM Employees Where Gender ='male'
+SELECT * FROM Employees Where Gender ='male';
+
 ```
 
