@@ -66,5 +66,6 @@ ALTER PROC spGenderEmployees
 WITH ENCRYPTION
 as
 SELECT * FROM Employees Where Gender ='male'
+
 ```
 
