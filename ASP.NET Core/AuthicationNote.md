@@ -66,3 +66,29 @@
     }
 
 ```
+## DTOS
+```csharp
+
+ public class LoginUserDTO
+    {
+        public string PhoneNumber { get; set; }
+        public string Password { get; set; }
+    }
+
+
+  public class RegisterUserDTO
+    {
+        public string UserName { get; set; }
+        [Required]
+        public string Phone { get; set; }
+
+        public string Email { get; set; }
+        [Required]
+        public string Address { get; set; }
+        [Required]
+        public string Password { get; set; }
+
+
+    }
+
+```
