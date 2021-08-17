@@ -92,3 +92,20 @@
     }
 
 ```
+--------------------------
+## Service
+
+```csharp
+ services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.SaveToken = true;
+                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.Unicode.GetBytes((Configuration["AppSettings:Token"].ToString()))),
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                    };
+                });
+```
