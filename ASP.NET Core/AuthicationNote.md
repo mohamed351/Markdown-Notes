@@ -117,7 +117,7 @@
     "DefaultConnection": "Data Source=.;Initial Catalog=OnlineShopping;Integrated Security=true"
   },
   "AppSettings": {
-    "Token": "TesitngMohamedAmerThisMeAlone01024181643"
+    "Token": "<Here is the token>"
   }
 }
 ```
