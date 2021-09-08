@@ -10,7 +10,6 @@ SELECT COALESCE(Email, 'NOT Specified') FROM Employees
 SELECT 
 CASE WHEN <Expression> THEN '' ELSE '' END
  FROM Employees
-
 ```
 *you can use case and else for NULL VALUES*
 ## Example
