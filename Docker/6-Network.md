@@ -20,5 +20,5 @@ docker network create favoriate-net
 ```
 to list a network 
 ```bash
-docker network ls 
+docker network ls
 ```
