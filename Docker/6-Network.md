@@ -18,3 +18,7 @@ to create a network
 ```bash
 docker network create favoriate-net 
 ```
+to list a network 
+```bash
+docker network ls 
+```
