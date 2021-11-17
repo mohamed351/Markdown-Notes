@@ -12,6 +12,5 @@ SELECT * FROM EmployeesInAccounting
 SELECT * FROM EmployeesInSales
 UNION 
 SELECT * FROM EmployeesInAccounting
-
 ```
 *Union and Union All is the same in execution plan but Union All convert it to distinct so Union is better performance .*
